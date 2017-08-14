@@ -1,0 +1,218 @@
+/* Header of webpage */
+
+header {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	z-index: 1;
+	width: 100%;
+	height;
+	80px;
+	background-color: white;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
+.logo img {
+	width: 70px;
+	height: 60px;
+	margin-right: 12px;
+}
+
+.logo span {
+	color: MediumAquamarine;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+header nav {
+	padding-right: 40px;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+span a {
+	color: black;
+}
+
+body {
+	margin: 0;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+
+/* Content */
+
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+
+
+/* Column widths */
+
+.column.large {
+	width: 630px;
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
+
+p {
+	display: block;
+}
+
+.narrative {
+	margin-top: 16px;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+
+/* Column large */
+
+.lead-story .image-content {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+	width: 630px;
+	margin-top: 0;
+	font-size: 40px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+
+.lead-story .image-content span {
+	margin-left: 20px;
+}
+
+.image-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	margin-top: 15px;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.fall-cancelled.image-content {
+	background-image: url(/home/laetitia/PROJECTS/mytimes/resources/css/img-story-2.png);
+	margin-right: 30px;
+}
+
+.pop-culture.image-content {
+	background-image: url(/home/laetitia/PROJECTS/mytimes/resources/css/img-story-3.png);
+}
+
+
+/* Column medium */
+
+h2 {
+	margin-top: 0px;
+}
+
+.cat-ceo.image-content {
+	background-image: url(/home/laetitia/PROJECTS/mytimes/resources/css/img-story-1.png);
+}
+
+
+/* Column small */
+
+.column.small img .cookie .news-bites {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img .cookie {
+	height: 240px;
+}
+
+h3 {
+	margin-bottom: 41px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.column.small .bite {
+	display: block;
+	padding: 11px 20px;
+	border-bottom: 1px solid black;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+}
+
+
+/* Footer */
+
+footer {
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+	text-align: center;
+	height: 200px;
+	align-items: center;
+	padding-top: 125px;
+}
+
+footer .name {
+	display: inline-block;
+	padding-right: 25px;
+	border-right: 2px solid white;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+footer span {
+	display: inline-block;
+	justify-content: space-between;
+	padding-left: 25px;
+}
+
+footer p {
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
